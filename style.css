@@ -6,5 +6,7 @@ form{
 }
 .btnSubmit{
     background-color: yellow;
-    align-: center;
+}
+.btnReset{
+    background-color: red;
 }
