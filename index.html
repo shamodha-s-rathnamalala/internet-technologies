@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Internet Technologies</title>
 </head>
 <body>
+
+    <picture>
+        <source media="(max-width : 799px)" srcset="assets/images/858791.jpg">
+
+        <img src="assets/images/858782.jpg" alt="this is car image" width="500" >
+    </picture>
+    <h2 align="CENTER">Multi Media Technology</h2>
+    <h4><u>Image Tag</u></h4>
+    <figure>
+        <img src="\image\2010.i123.005..car headlights AD composition.jpg" width="800" height="500" alt="Audi Car" title="Audi Car">
+        <figcaption>
+            Audi Car Image........
+        </figcaption>
+    </figure>
+
+    <picture>
+        <h3>Adding Responsive Image</h3>
+        <source media="(max-width : 799px" srcset="\image\2010.i123.005..car headlights AD composition.jpg"> <!--799nm src eke image eka panne-->
+        <img src="\image\2010.i123.005..car headlights AD composition.jpg" width="800" height="500" alt="Audi Car">
+    </picture>
+    <br>
+    <h3>Adding Video</h3>
+
+    <video width="320" height="240" controls>
+        <source src="Video/production ID_4569076.mp4" type="video/mp4">
+    </video>
+    <br>
+    <h3> Browsers don't all support the same video formats; you can provide multiple sources inside nested <source> elements, and the browser will then use the first one it understands. </h3>
+    <video WIDTH="300" controls autoplay muted>
+        <source src="assets/video/video.webm" type="video/webm" />
+        <source src="assets/video/video.mp4" type="video/mp4" />
+        <track kind ="subtitles" src="assets/sample.vtt" srclang="en" label="english">
+        <p>
+            Your browser doesn't support HTML video. Here is a
+            <a href="Video/video.mp4">link to the video</a> instead.
+        </p>
+    </video>
 
 </body>
 </html>
